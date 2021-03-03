@@ -1,4 +1,21 @@
-
-I like talk radio
+I like black tea
 I like snow
-I like biscuits
+I don't like milktea
+I like coffee
+<<<<<<< HEAD
+I like cat very much
+I like candy
+I like rain
+I like IBI
+I like practical
+I like orange
+=======
+I like cat
+I like IBI
+I like water
+I like ice
+I like vapor
+I like wind
+I like apple
+>>>>>>> Peach
+
