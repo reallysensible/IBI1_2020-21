@@ -1,0 +1,12 @@
+Practical 4 is the most difficult one until now.
+I did not know clearly about the functions of the commands we learned in class,
+and sometimes I forgot some necessary steps,
+so I spent much time trying to figure out how to use these commands and rewrite the codes.
+Although my operations were not right at the first time, after I tried again, I got everything right in the end.
+Understanding the precedure of editing a file and merging branches are challenging.
+Copying a file to another directory is also challenging as I have forgotten how to do it.
+I think I have to make more notes and review what I have learned after class.
+I have a question about git merge.
+I used git merge command to merge the branches,
+but then it showed that there is a conflict in the file,so the automatic merge is unsuccessful.
+What can I do to merge them? And why there is a conflict?
