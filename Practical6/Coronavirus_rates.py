@@ -1,6 +1,19 @@
 # a frequency dictionary
-my_dict = {}
-Total_Cases = {'USA' :29862124, 'India' :11285561, 'Brazil' :11205972, 'Russia' :4360823, 'UK' :4234924}
+countries = ['USA', 'India', 'Brazil', 'Russia', 'UK']
+cases = {'USA':29862124, 'India':11285561, 'Brazil':11205972, 'Russia':4360823, 'UK':4234924}
+# calculate the total cases of the five countries
+total_number = 0
+for country in (countries):
+    each_case = cases[country] # extract case number from the dictionary 'cases'
+    total_number += each_case # add each country's cases together
+
+# create a frequency dictionary
+Total_Frequency = cases
+for country in (countries):
+    Total_Frequency[country] = Total_Frequency[country]/total_number # frequency = one country's case/total cases
+
+print(Total_Frequency)
+
 
 # a pie chart from the frequency table
 # TIP: try the 'pyplot.pie' function in matplotlib
