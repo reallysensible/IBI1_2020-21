@@ -1,18 +1,18 @@
-# initial infected individual n
-n=84
-i=0
-# r rate
-r=1.2
-# a is newly infected people
+n = 84
+r = 1.1
+for i in range (1,6):
+    new = r * n
+    total = new + n
+    n = total
+
+import math
+total = math.floor(total)
+print('The total number of individuals infected after 5 generations is', total, 'if the r rate is', r)
+
+
+# Check for r = 1.1 (should be 3430 infections)
+
+# new is newly infected people
 # b is infected people in last round
 # c is the total ifected people after this round
-b=n
-c=n
 # five rounds of infection
-while i<5:
- a=r*b #a=1.2*84 1.2*
- c=a+c #c=1.2*84+84
- b=a
- i=i+1
-
-print (c)
