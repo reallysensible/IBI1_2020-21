@@ -22,8 +22,8 @@ print(Total_Frequency)
 import matplotlib.pyplot as plt
 import numpy as np
 # dict to list
-labels=list(Total_Cases.keys())
-sizes=list(Total_Cases.values())
+labels=list(cases.keys())
+sizes=list(cases.values())
 
 cmap = plt.get_cmap("terrain")
 colors = cmap([1, 20, 40, 60, 80])
