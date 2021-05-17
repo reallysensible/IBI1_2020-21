@@ -1,0 +1,14 @@
+Question:
+  How have new cases and total cases developed over time in Spain?
+Line number:
+  81-90
+Discussion:
+  The plot represents how new cases and total cases developed over time in Spain, which is what I expected.
+  I used loc twice to select the new cases and total cases separately in Spain.
+  I used "plt.plot(a, b, 'b+')" twice to import two sets of data into one plot,
+  so the plot shows both new cases and total cases
+  and I can choose the color for them separately
+  I tried to use it once but the two sets of data came out the same color, which was unclear for the plot,
+  so I tried using it twice, and it turned out working.
+  I used the "plt.tick_params" to change the fontsize of the x ticks and y ticks.
+  I also set the label for both axes and the title of the plot.
