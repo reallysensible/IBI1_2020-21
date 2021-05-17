@@ -1,0 +1,21 @@
+Findings:
+(The alignment scores are defined as the	final	BLOSUM score divided by the sequence length in this script.)
+Following are the alignment scores.
+For alignment between the sequence for human SOD2 protein (NP_000627.2) and the sequence for mouse SOD2 protein (NP_038699.2):
+  The alignment score is 4.91.
+  The percentage of identity (how	many	amino	acids	are	identical) is 89.64%.
+
+For alignment between the sequence for mouse SOD2 protein (NP_038699.2) and the random	sequence:
+  The alignment score is -1.13.
+  The percentage of identity (how	many	amino	acids	are	identical) is 5.86%.
+
+For alignment between the sequence for human SOD2 protein (NP_000627.2) and the random	sequence:
+  The alignment score is -1.13.
+  The percentage of identity (how	many	amino	acids	are	identical) is 5.41%.
+
+
+Interpretation:
+Both alignment scores and percentages of identity suggest that the sequence for human SOD2 protein and the sequence for mouse SOD2 protein are highly similar.
+However, the random sequence is quite different from the two other sequences.
+The findings reveal that the sequence of SOD2 protein is highly conserved in human and mouse, which might indicate that the sequence has been maintained by natural selection.
+They also suggest that the SOD2 protein of human and mouse are homologous, and the evolutionary distance between human and mouse is likely to be small.
