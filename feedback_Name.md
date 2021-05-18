@@ -1,9 +1,9 @@
 In the formative feedback,
-#Week 4:
+# Week 4
   There is no feedback for week 4 practical. Everything was fine and the score was 100, but I deleted an unwanted file (practical 4 guide) in the folder 'Practical4'.
 
 
-#Week 5:
+# Week 5
   In variables.py
   - feedback: did not print the result of 'W == Z for all 4 combinations of X and Y'
   * change: add the function 'print()' to print the result out
@@ -23,7 +23,7 @@ In the formative feedback,
   * change: correct the r rate model (when r = 1.1, the newly infected people after this round together with the already infected people would infect 1.1 people per person in the next round and changed my code according to it)
 
 
-#Week 6:
+# Week 6
   In the file for comparing coronavirus infection rates
   - feedback: the code did not display the frequency table that matches the input when the input table is changed
   * change: add the code to calculate the frequency (frequency = one country's case/total cases) and create a frequency dictionary whose keys are countries and values are the frequencies.
